@@ -120,5 +120,5 @@ def confluence(bbox,threshold):
 
 imshow(path, bbox_original)
 
-imshow(path, confluence(bbox_original,0.6))
+imshow(path, confluence(bbox_original,0.8))
 

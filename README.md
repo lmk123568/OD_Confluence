@@ -10,7 +10,7 @@
 
 ------
 
-![1](\md\1.png)
+![1](md\1.png)
 
 paper：https://arxiv.org/abs/2012.00257
 
