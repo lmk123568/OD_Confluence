@@ -1,6 +1,7 @@
 import numpy as np
 import cv2
 
+#可以测试woman、cat、person三个图片，单独去掉注释号即可
 
 # bbox_original = np.loadtxt('woman_bbox.txt')
 # path = 'woman.jpg'
