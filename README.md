@@ -24,15 +24,15 @@ paper：https://arxiv.org/abs/2012.00257
 
 曼哈顿距离：
 
-![3](\md\3.png)
+![3](md\3.png)
 
 任意两个边界框接近度P：
 
-![4](\md\4.png)
+![4](md\4.png)
 
 如图所示：
 
-<img src="\md\5.png" alt="5" style="zoom:80%;" />
+<img src="md\5.png" alt="5" style="zoom:80%;" />
 
 实际上对象及其相应边界框具有不同大小，需要进一步Normalization
 
@@ -40,7 +40,7 @@ paper：https://arxiv.org/abs/2012.00257
 
 伪代码：
 
-![7](\md\7.png)
+![7](md\7.png)
 
 设集合B：一个class下所有bbox，集合C：提取的最终bbox
 
