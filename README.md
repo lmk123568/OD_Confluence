@@ -10,7 +10,7 @@
 
 ------
 
-![1]("pic\pic_1.png")
+<img src="pic\1.png" alt="1"  />
 
 paper：https://arxiv.org/abs/2012.00257
 
