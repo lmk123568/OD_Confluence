@@ -10,7 +10,7 @@
 
 ------
 
-<img src="pic\1.png" alt="1"  />
+<img src="pic\pic_1.png" alt="1"  />
 
 paper：https://arxiv.org/abs/2012.00257
 
@@ -24,11 +24,11 @@ paper：https://arxiv.org/abs/2012.00257
 
 曼哈顿距离：
 
-![3](pic\3.png)
+<img src="pic\3.png" alt="3" />
 
 任意两个边界框接近度P：
 
-![4](pic\4.png)
+<img src="pic\4.png" alt="4"  />
 
 如图所示：
 
@@ -40,7 +40,7 @@ paper：https://arxiv.org/abs/2012.00257
 
 伪代码：
 
-![7](pic\7.png)
+<img src="pic\7.png" alt="7"  />
 
 设集合B：一个class下所有bbox，集合C：提取的最终bbox
 
@@ -55,6 +55,5 @@ paper：https://arxiv.org/abs/2012.00257
 
 
 ## Results
-
-![8](pic\8.png)
+<img src="pic\8.png" alt="8"  />
 
