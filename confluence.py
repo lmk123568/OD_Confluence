@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-#可以测试woman、cat、person三个图片，单独去掉注释号即可
+# 可以测试woman、cat、person三个图片，单独去掉注释号即可
 
 # bbox_original = np.loadtxt('woman_bbox.txt')
 # path = 'woman.jpg'
@@ -62,18 +62,18 @@ def confluence(bbox,threshold):
    
     print(30*'-')
     
-    bbox_num=[i for i in range(len(bbox))]#对各个bbox进行编号
+    bbox_num=[i for i in range(len(bbox))]  # 对各个bbox进行编号
     
     keep = []
 
     while len(bbox_num) > 0:
         
-        score_min = []#存放每一轮每个bbox最小WP
-        loc_set=[]#存放每个bbox的P<阈值的bbox编号
+        score_min = []   # 存放每一轮每个bbox最小WP
+        loc_set=[]       # 存放每个bbox的P<阈值的bbox编号
         
         for i in bbox_num:
-            score = []#存放bbox[i]的所有WP，然后选出最小
-            loc=[]#存放P<threshold的bbox编号
+            score = []   # 存放bbox[i]的所有WP，然后选出最小
+            loc=[]       # 存放P<threshold的bbox编号
             for j in bbox_num:
                 P = norm(bbox[i], bbox[j])
                 if P<threshold:
